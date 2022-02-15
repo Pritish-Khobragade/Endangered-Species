@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rightNav{
+    background-color: none;
+    width: 35%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 23px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 12px;
+    background: none;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 6px;
+    font-weight: 400;
+    background: rgb(238, 238, 238);
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex:1;
+    text-align: right;  
+}
+.nav ul{
+    display: inline-block;
+    margin-right: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: gray;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 22px;
+    font-size: 1.6em;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    font-size: 1.2em;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0 ;
+}
+.col-2 h1{
+    font-size: 3em;
+    line-height: 60px;
+    margin: 25px 0; 
+}
+.header{
+    background: radial-gradient(rgb(110, 214, 127),#7ffc02);
+}
+.header.row{
+    margin-top: 70px;
+ }
+ .btn:hover{
+    background: black;
+    color: white;
+ }
+ .para{
+     font-size: 1.6em;
+     padding-top: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
+     background: rgb(238, 238, 238);
+     margin-top: 10px;
+     margin-left: 20px;
+     margin-right: 20px;
+
+ }
+
+ .text-big{
+
+    font-size: 3vw;
+    top-padding: 30px;
+    background: rgb(238, 238, 238);
+}
+.text-small{
+    font-size: 1.6em;
+    background: rgb(238, 238, 238);
+}
+.section{
+    display: flex;
+    design-item: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 4vw;
+    border-radius: 30vw;
+    font-size: 1.6em;
+}
+.navbar li a:hover{
+    background: white;
+}
+@media screen and (max-width:1140px){
+    .section{
+        flex-direction: column;
+
+    }
+}
+/* brands */
+.brands{
+    margin: 100px auto;
+}
+col-5{
+    width: 160px;
+}.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+/* footer */
+.footer{
+   background: #000;
+   color: #8a8;
+   font-size: 14px;
+   padding: 60px 0 20px;
+}.footer p{ 
+   color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex-basis: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 240px;
+}
+.footer hr{
+    border: none;
+    background-color: b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.Copyright{
+   text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+/* media query for menu */
+
+
+@media screen and (max-width: 800px){
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav ul li a{
+    color: white;
+}
+.menu-icon{
+    display: block;
+    cursor: pointer;
+}
+}
+/* media query to less tham 600px */
+
+@media screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, col-4{
+        flex-basis: '100%';
+    }
+} 
+.media{
+   text-align: center;
+   justify-content: center;
+   height: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
